@@ -15,7 +15,6 @@ int main(void)
 	for (smalls = 'a'; smalls <= 'z'; smalls++)
 	{
 		putchar(smalls);
-		putchar('\n');
 	}
 
 	return (0);
