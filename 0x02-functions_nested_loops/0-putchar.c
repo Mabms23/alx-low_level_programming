@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include "_putchar.h"
 
 /**
  * main - Entry point
@@ -8,7 +9,14 @@
 
 int main(void)
 {
-	puts("_putchar");
-	puts('/n');
+	char word[8] = "_putchar";
+	int i;
+
+	for (i = 0; i < 9; i++)
+	{
+		_putchar(word[i]);
+	}
+	_putchar('/n');
+
 	return (0);
 }
