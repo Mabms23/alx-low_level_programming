@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * main- Entry point
- * Description:a function called by the header file
- * Return  :Always  0 (success)
+ * main - Check description
+ * Description: It prints the word _putchar, followed by a new line.
+ * Return: 0.
  */
 
 int main(void)
 {
-	_putchar("_");
-	_putchar("p");
-	_putchar("u");
-	_putchar("t");
-	_putchar("c");
-	_putchar("h");
-	_putchar("a");
-	_putchar("r");
-	_putchar("\n");
+	char word[8] = "_putchar";
+	int i;
+
+	for (i = 0; i < 8 ; i++)
+	{
+		_putchar(word[i]);
+	}
+	_putchar('\n');
+
 	return (0);
 }
